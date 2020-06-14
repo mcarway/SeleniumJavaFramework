@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65634" started-at="2020-06-08T17:14:08 EDT" finished-at="2020-06-08T17:15:14 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65634" started-at="2020-06-08T17:14:08 EDT" finished-at="2020-06-08T17:15:14 EDT">
+      <class name="tests.KatalonTestDemo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.KatalonTestDemo@e320068]" name="setUp" is-config="true" duration-ms="11523" started-at="2020-06-08T17:14:08 EDT" finished-at="2020-06-08T17:14:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testKatalonTestDemo()[pri:0, instance:tests.KatalonTestDemo@e320068]" name="testKatalonTestDemo" duration-ms="41069" started-at="2020-06-08T17:14:20 EDT" finished-at="2020-06-08T17:15:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testKatalonTestDemo -->
+        <test-method status="PASS" signature="testKatalonTestDemo2()[pri:0, instance:tests.KatalonTestDemo@e320068]" name="testKatalonTestDemo2" duration-ms="11721" started-at="2020-06-08T17:15:01 EDT" finished-at="2020-06-08T17:15:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testKatalonTestDemo2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.KatalonTestDemo@e320068]" name="tearDown" is-config="true" duration-ms="1210" started-at="2020-06-08T17:15:13 EDT" finished-at="2020-06-08T17:15:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.KatalonTestDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

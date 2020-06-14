@@ -1,0 +1,8 @@
+<suite name="Suite1" parallel="classes">
+  <test thread-count="5" name="Test1" parallel="classes">
+    <classes>
+      <class name="tests.ExtentReportsDemoWithTestNG"/>
+      <class name="tests.ExtentReportsDemoWithTestNG2"/>
+    </classes>
+  </test>
+</suite>
