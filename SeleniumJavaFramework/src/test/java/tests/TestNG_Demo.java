@@ -62,7 +62,8 @@ public class TestNG_Demo {
 			e.printStackTrace();
 		}
 
-	}@Test
+	}
+	@Test
 	public void GoogleSearchTest3() {
 		searchPageObj = new GoogleSearchPageObjects(driver);
 		
@@ -82,7 +83,7 @@ public class TestNG_Demo {
 	@AfterTest	
 	public void tearDownTest() {
 		driver.close();
-		//driver.quit();
+		driver.quit();
 		
 		//System.out.println("Test completed successfully.");
 

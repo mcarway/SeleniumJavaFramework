@@ -20,7 +20,7 @@ public class GoogleSearchPageTest {
 		driver=new ChromeDriver();
 		GoogleSearchPageObjects searchPageObj = new GoogleSearchPageObjects(driver);
 		
-		driver.get("https://google.com");
+		driver.get("google.com");
 		
 		searchPageObj.setTextInSearchBox("How to Program");
 		searchPageObj.ClickSearchButton();
